@@ -1,3 +1,4 @@
+
 # Deep Learning Models for Collaborative Filtering
 
 This project is an implementation of two deep neural network (DNN) models — **CNN-based** and **RNN-based** — for collaborative filtering, evaluated on the **MovieLens** dataset. It is based on a survey of various deep learning architectures for recommender systems.
@@ -53,3 +54,48 @@ These metrics are computed on the test set after training.
    ```bash
    git clone https://github.com/Simba256/deep-cf-models.git
    cd deep-cf-models
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Add the `ratings.csv` file from MovieLens in the project directory.
+
+4. Run the main script:
+   ```bash
+   python main.py
+   ```
+
+## 📁 File Structure
+
+```
+.
+├── main.ipynb            # Main script containing preprocessing, training, and evaluation
+├── ratings.csv        # MovieLens dataset file (not included, must be downloaded)
+├── README.md          # Project documentation
+└── requirements.txt   # Python package dependencies
+```
+
+## 📌 Requirements
+
+- Python 3.7+
+- TensorFlow
+- NumPy
+- Pandas
+- scikit-learn
+- matplotlib
+
+You can install them using:
+```bash
+pip install tensorflow pandas numpy scikit-learn matplotlib
+```
+
+## ✍️ Author
+
+This project was developed as part of a course assignment to compare deep neural network models for collaborative filtering.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
