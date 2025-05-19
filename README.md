@@ -51,5 +51,5 @@ These metrics are computed on the test set after training.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/deep-cf-models.git
+   git clone https://github.com/Simba256/deep-cf-models.git
    cd deep-cf-models
